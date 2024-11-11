@@ -1,6 +1,6 @@
 import logo from "./logo.svg"
-import WebResume from "./components/Web"
-import AIResume from "./components/AI"
+import WebResume from "./pages/Web"
+import AIResume from "./pages/AI"
 
 function App() {
   return (
