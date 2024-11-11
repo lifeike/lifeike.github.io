@@ -1,11 +1,13 @@
 import logo from "./logo.svg"
+import WebResume from "./components/Web"
+import AIResume from "./components/AI"
 
 function App() {
   return (
-    <>
-      <div className="bg-white">hello world</div>
-      <div className="bg-black">hello world</div>
-    </>
+    <div className="w-[210mm] m-auto border border-black">
+      <WebResume />
+      {/* <AIResume /> */}
+    </div>
   )
 }
 
