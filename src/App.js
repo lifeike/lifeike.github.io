@@ -4,7 +4,7 @@ import AIResume from "./components/AI"
 
 function App() {
   return (
-    <div className="w-[210mm] m-auto border border-black">
+    <div className="w-[208mm] m-auto border border-black">
       <WebResume />
       {/* <AIResume /> */}
     </div>
