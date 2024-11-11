@@ -1,4 +1,7 @@
 import WorkExperience from "../../components/WorkExperience"
+import ProjectDetail from "../../components/ProjectDetail"
+import Certificate from "../../components/Certificate"
+import Education from "../../components/Education"
 
 const index = (props) => {
   return (
@@ -53,6 +56,29 @@ const index = (props) => {
             "Enhanced calculation accuracy and prevented settlement discrepancies using custom-developed libraries",
           ]}
         />
+      </div>
+      <div>
+        <div> projects</div>
+        <div className="border-b-2 border-black"> </div>
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+      </div>
+      <div>
+        <div> certificate</div>
+        <div className="border-b-2 border-black"> </div>
+        <Certificate title="Noosu" description="Home health care services" date="2021.1-Present" />
+      </div>
+      <div>
+        <div> education</div>
+        <div className="border-b-2 border-black"> </div>
+        <Education title="Noosu" description="Home health care services" date="2021.1-Present" />
       </div>
     </>
   )
