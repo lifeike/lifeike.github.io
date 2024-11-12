@@ -10,16 +10,16 @@ const index = (props) => {
         <h2 className="font-bold text-xl">Feeco Li</h2>
         <h2 className="font-semibold text-lg">[Frontend/Backend/Full Stack Developer]</h2>
       </div>
-      <div className="flex justify-center space-x-2">
-        <li>Calgary Alberta</li>
-        <li>lifeike67@gmail.com</li>
-        <li>(403)400-5028</li>
-        <li>likedinin.com/in/feeco</li>
+      <div className="flex justify-center space-x-4">
+        <li className="list-none">Calgary Alberta</li>
+        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">lifeike67@gmail.com</li>
+        <li className="list-none">(403)400-5028</li>
+        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">linkedin.com/in/feeco/#projects</li>
       </div>
       <div className="my-2">
         <div className="font-bold text-xl"> Skills</div>
         <div className="border-b-2 border-black"> </div>
-        <div> Typescript, React, Node Express, MongoDB,AWS, TailwindCSS, ShadCN, MySql, Nextjs</div>
+        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB</div>
       </div>
       <div className="my-2">
         <div className="font-bold text-xl"> Employment</div>
@@ -60,14 +60,16 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-xl"> Projects</div>
         <div className="border-b-2 border-black"> </div>
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" date="2021.1-Present" />
-        <ProjectDetail title="OSL" description="Safety & Project Management" date="2021.1-Present" />
-        <ProjectDetail title="Karbon-X" description="Carbon offsets and credits trading" date="2021.1-Present" />
-        <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" date="2021.1-Present" />
-        <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" date="2021.1-Present" />
-        <ProjectDetail title="Quilt" description="Donation platform" date="2021.1-Present" />
-        <ProjectDetail title="Vip Golf" description="Exclusive golf club" date="2021.1-Present" />
+        <div className="p-2">
+          <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+          <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" date="2021.1-Present" />
+          <ProjectDetail title="OSL" description="Safety & Project Management" date="2021.1-Present" />
+          <ProjectDetail title="Karbon-X" description="Carbon offsets and credits trading" date="2021.1-Present" />
+          <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" date="2021.1-Present" />
+          <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" date="2021.1-Present" />
+          <ProjectDetail title="Quilt" description="Donation platform" date="2021.1-Present" />
+          <ProjectDetail title="Vip Golf" description="Exclusive golf club" date="2021.1-Present" />
+        </div>
       </div>
       <div className="my-2">
         <div className="font-bold text-xl">Certificate</div>
@@ -77,8 +79,18 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-xl">Education</div>
         <div className="border-b-2 border-black"> </div>
-        <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />
-        <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />
+        <Education
+          schoolName="SOUTHERN ALBERTA INSTITUTE OF TECHNOLOGY (SAIT)"
+          location="Calgary, Canada"
+          major="Diploma of Information Technology; Major in Software Development "
+          date="2018-2020"
+        />
+        <Education
+          schoolName="SHAN DONG UNIVERSITY"
+          location="ShanDong, China"
+          major="Bachelor of Management; Major in Human Resource Management "
+          date="2009-2013"
+        />
       </div>
     </>
   )
