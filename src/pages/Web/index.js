@@ -12,7 +12,9 @@ const index = (props) => {
       </div>
       <div className="flex justify-center space-x-4">
         <li className="list-none">Calgary Alberta</li>
-        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">lifeike67@gmail.com</li>
+        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">
+          <a href="mailto:lifeike67@gmail.com">lifeike67@gmail.com</a>
+        </li>
         <li className="list-none">(403)400-5028</li>
         <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">
           <a target="_blank" href="https://linkedin.com/in/feeco/details/projects">
@@ -65,14 +67,29 @@ const index = (props) => {
         <div className="font-bold text-lg uppercase"> Projects</div>
         <div className="border-b-2 border-black"> </div>
         <div className="p-2">
-          <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-          <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" date="2021.1-Present" />
-          <ProjectDetail title="OSL" description="Safety & Project Management" date="2021.1-Present" />
-          <ProjectDetail title="Karbon-X" description="Carbon offsets and credits trading" date="2021.1-Present" />
-          <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" date="2021.1-Present" />
-          <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" date="2021.1-Present" />
-          <ProjectDetail title="Quilt" description="Donation platform" date="2021.1-Present" />
-          <ProjectDetail title="Vip Golf" description="Exclusive golf club" date="2021.1-Present" />
+          <ProjectDetail
+            title="Karbon-X"
+            description="Carbon offsets and credits trading"
+            links={[
+              { label: "Client 1/", url: "https://portal.karbon-x.com/" },
+              { label: "Client 2/", url: "https://v3.karbon-x.com/" },
+              { label: "Admin", url: "https://admin.karbon-x.com/" },
+            ]}
+          />
+          <ProjectDetail
+            title="Noosu"
+            description="Home health care services"
+            links={[
+              { label: "Client/", url: "https://app.noosu.ca" },
+              { label: "Admin", url: "https://admin.noosu.ca/auth/login" },
+            ]}
+          />
+          {/* <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" links="2021.1-Present" />
+          <ProjectDetail title="OSL" description="Safety & Project Management" links="2021.1-Present" />
+          <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" links="2021.1-Present" />
+          <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" links="2021.1-Present" />
+          <ProjectDetail title="Quilt" description="Donation platform" links="2021.1-Present" />
+          <ProjectDetail title="Vip Golf" description="Exclusive golf club" links="2021.1-Present" /> */}
         </div>
       </div>
       <div className="my-2">
