@@ -14,7 +14,11 @@ const index = (props) => {
         <li className="list-none">Calgary Alberta</li>
         <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">lifeike67@gmail.com</li>
         <li className="list-none">(403)400-5028</li>
-        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">linkedin.com/in/feeco/#projects</li>
+        <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">
+          <a target="_blank" href="https://linkedin.com/in/feeco/details/projects">
+            linkedin.com/in/feeco/details/projects
+          </a>
+        </li>
       </div>
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Skills</div>
