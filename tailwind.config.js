@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Arial", "sans-serif"],
+        "eb-garamond": ["EB Garamond", "serif"],
       },
     },
   },
