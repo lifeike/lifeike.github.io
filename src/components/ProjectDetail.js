@@ -1,10 +1,10 @@
 const index = (props) => {
   return (
     <div id="project">
-      <div className="flex justify-between">
+      <div className="grid grid-cols-3">
         <div> {props.title} </div>
         <div> {props.description}</div>
-        <div> {props.date}</div>
+        <div className="flex justify-end"> {props.date}</div>
       </div>
     </div>
   )
