@@ -7,7 +7,7 @@ const index = (props) => {
   return (
     <>
       <div className="flex justify-between">
-        <h2 className="font-bold text-xl">Feeco Li</h2>
+        <h2 className="font-bold text-lg">Feeco Li</h2>
         <h2 className="font-semibold text-lg">[Frontend/Backend/Full Stack Developer]</h2>
       </div>
       <div className="flex justify-center space-x-4">
@@ -17,12 +17,12 @@ const index = (props) => {
         <li className="list-none font-medium text-blue-600 dark:text-blue-500 underline">linkedin.com/in/feeco/#projects</li>
       </div>
       <div className="my-2">
-        <div className="font-bold text-xl"> Skills</div>
+        <div className="font-bold text-lg uppercase"> Skills</div>
         <div className="border-b-2 border-black"> </div>
         <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB</div>
       </div>
       <div className="my-2">
-        <div className="font-bold text-xl"> Employment</div>
+        <div className="font-bold text-lg uppercase"> Employment</div>
         <div className="border-b-2 border-black"> </div>
         <WorkExperience
           companyName="VOG APP DEVELOPER INC."
@@ -58,7 +58,7 @@ const index = (props) => {
         />
       </div>
       <div className="my-2">
-        <div className="font-bold text-xl"> Projects</div>
+        <div className="font-bold text-lg uppercase"> Projects</div>
         <div className="border-b-2 border-black"> </div>
         <div className="p-2">
           <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
@@ -72,12 +72,12 @@ const index = (props) => {
         </div>
       </div>
       <div className="my-2">
-        <div className="font-bold text-xl">Certificate</div>
+        <div className="font-bold text-lg uppercase">Certificate</div>
         <div className="border-b-2 border-black"> </div>
-        <Certificate title="Amazon web service solution Architect Associate" description="Credential ID H0PC2TJDFEQE1ZKS" />
+        <Certificate title="Amazon web services solution Architect Associate" description="Credential ID H0PC2TJDFEQE1ZKS" />
       </div>
       <div className="my-2">
-        <div className="font-bold text-xl">Education</div>
+        <div className="font-bold text-lg uppercase">Education</div>
         <div className="border-b-2 border-black"> </div>
         <Education
           schoolName="SOUTHERN ALBERTA INSTITUTE OF TECHNOLOGY (SAIT)"
