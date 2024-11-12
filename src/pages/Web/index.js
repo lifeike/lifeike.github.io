@@ -61,24 +61,24 @@ const index = (props) => {
         <div> projects</div>
         <div className="border-b-2 border-black"> </div>
         <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
-        <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" date="2021.1-Present" />
+        <ProjectDetail title="OSL" description="Safety & Project Management" date="2021.1-Present" />
+        <ProjectDetail title="Karbon-X" description="Carbon offsets and credits trading" date="2021.1-Present" />
+        <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" date="2021.1-Present" />
+        <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" date="2021.1-Present" />
+        <ProjectDetail title="Quilt" description="Donation platform" date="2021.1-Present" />
+        <ProjectDetail title="Vip Golf" description="Exclusive golf club" date="2021.1-Present" />
       </div>
       <div>
         <div> certificate</div>
         <div className="border-b-2 border-black"> </div>
-        <Certificate title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <Certificate title="Amazon web service solution Architect Associate" description="Home health care services" date="2021.1-Present" />
       </div>
       <div>
         <div> education</div>
         <div className="border-b-2 border-black"> </div>
-        <Education title="Noosu" description="Home health care services" date="2021.1-Present" />
+        <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />
+        <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />
       </div>
     </>
   )
