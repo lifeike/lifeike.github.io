@@ -36,7 +36,7 @@ const index = (props) => {
           ]}
         />
         <WorkExperience
-          companyName="SKETCHBOX (CONTRACT) San Francisco"
+          companyName="SKETCHBOX (CONTRACT)"
           location="San Francisco, United States"
           title="Full Stack Developer"
           date="2023.3-2023.6"
