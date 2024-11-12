@@ -36,8 +36,8 @@ const index = (props) => {
           title="Full Stack Developer"
           date="2023.11-Present"
           descriptions={[
-            "Developed and deployed cloud-based web applications tailored to various industry needs",
-            "Provided comprehensive technical support and problem-solving solutions to developers company-wide",
+            "Design and implement both web and mobile application that facilitates the trading of carbon offset.",
+            "I integrate artificial intelligence into the platform to enhance user experience, optimize trading decisions, and ensure security.",
           ]}
         />
         <WorkExperience
@@ -46,9 +46,8 @@ const index = (props) => {
           title="Full Stack Developer"
           date="2021.1-2023.11"
           descriptions={[
-            "Developed and deployed cloud-based web applications tailored to various industry needs",
-            "Provided comprehensive technical support and problem-solving solutions to developers company-wide",
-            "Continuously enhanced and refined the reusable code library for improved performance and efficiency",
+            " Develop full-stack web and mobile applications using a variety of frameworks, ensuring scalable and efficient solutions.",
+            "Mentor and guide developers on emerging technologies and industry trends, fostering growth and innovation",
           ]}
         />
         <WorkExperience
