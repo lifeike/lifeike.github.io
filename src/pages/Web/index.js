@@ -68,6 +68,14 @@ const index = (props) => {
         <div className="border-b-2 border-black"> </div>
         <div className="p-2">
           <ProjectDetail
+            title="DMRV"
+            description="Carbon offset mobile tracking system"
+            links={[
+              { label: "Andriod/", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
+              { label: "Apple", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
+            ]}
+          />
+          <ProjectDetail
             title="Karbon-X"
             description="Carbon offsets and credits trading"
             links={[
@@ -84,12 +92,43 @@ const index = (props) => {
               { label: "Admin", url: "https://admin.noosu.ca/auth/login" },
             ]}
           />
-          {/* <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" links="2021.1-Present" />
-          <ProjectDetail title="OSL" description="Safety & Project Management" links="2021.1-Present" />
-          <ProjectDetail title="Luxe Du Jour" description="Luxury platform you shop, sell" links="2021.1-Present" />
-          <ProjectDetail title="Exclusive Reward" description="Reward platforms for car owners" links="2021.1-Present" />
-          <ProjectDetail title="Quilt" description="Donation platform" links="2021.1-Present" />
-          <ProjectDetail title="Vip Golf" description="Exclusive golf club" links="2021.1-Present" /> */}
+          <ProjectDetail
+            title="Sketchbox 3D"
+            description="Virtual reality training & assessment"
+            links={[
+              {
+                label: "Client",
+                url: "https://dashboard.sketchbox3d.com/u/login?state=hKFo2SBFMkdLbko5d1Jud0YycDd4aENhNHZmNk1GY1VfNDFpcaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIG9SQTBOdHJweElzaHZsSTdSdVByaS12clZhX0Y2Ykhlo2NpZNkgNHNTQnoxMHhTcXJKdVNrWnJiV3VXeXRrWGl1a3pIc1A&ui_locales=en%2Cfr",
+              },
+            ]}
+          />
+          <ProjectDetail
+            title="Luxe Du Jour"
+            description="Luxury platform you shop, sell"
+            links={[
+              { label: "Client/", url: "https://ldj.com/" },
+              { label: "Admin", url: "https://management-portal.luxedujour.ca/signin" },
+            ]}
+          />
+          <ProjectDetail
+            title="Exclusive Reward"
+            description="Reward platforms for car owners"
+            links={[
+              { label: "Client 1/", url: "https://rewards-partner.staging.exclusive-rewards.vogdevelopment.com/auth/login" },
+              { label: "Client 2/", url: "https://lifestyle-partner.staging.exclusive-rewards.vogdevelopment.com/auth/login" },
+              { label: "Admin", url: "https://super-admin.staging.exclusive-rewards.vogdevelopment.com/auth/login-page" },
+            ]}
+          />
+          <ProjectDetail
+            title="West Lake"
+            description="OCR Invoice auditing system"
+            links={[{ label: "Client", url: "https://westlake.pulsepointsoftware.com" }]}
+          />
+          <ProjectDetail
+            title="Portfolio"
+            description="Review more projects on linkedin"
+            links={[{ label: "Linkedin...", url: "https://linkedin.com/in/feeco/details/projects" }]}
+          />
         </div>
       </div>
       <div className="my-2">
