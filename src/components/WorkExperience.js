@@ -6,8 +6,8 @@ const index = (props) => {
         <div className="font-bold">{props.location}</div>
       </div>
       <div className="flex justify-between">
-        <div className="font-bold"> {props.title} </div>
-        <div className="font-bold"> {props.date}</div>
+        <div className="font-semibold"> {props.title} </div>
+        <div className="font-semibold"> {props.date}</div>
       </div>
       <div className="p-2">
         {props?.descriptions?.map((item) => (
