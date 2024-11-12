@@ -10,7 +10,7 @@ const index = (props) => {
         <div className="font-bold"> {props.date}</div>
       </div>
       <div className="p-2">
-        {props.descriptions.map((item) => (
+        {props?.descriptions?.map((item) => (
           <li key={item}>{item}</li>
         ))}
       </div>
