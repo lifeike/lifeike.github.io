@@ -2,8 +2,8 @@ const index = (props) => {
   return (
     <div id="education">
       <div className="flex justify-between">
-        <div> {props.schoolName} </div>
-        <div> {props.location}</div>
+        <div className="font-bold"> {props.schoolName} </div>
+        <div className="font-bold"> {props.location}</div>
       </div>
       <div className="flex justify-between">
         <div> {props.major} </div>
