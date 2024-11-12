@@ -85,6 +85,7 @@ const index = (props) => {
           major="Diploma of Information Technology; Major in Software Development "
           date="2018-2020"
         />
+        <div className="my-2"> </div>
         <Education
           schoolName="SHAN DONG UNIVERSITY"
           location="ShanDong, China"
