@@ -7,8 +7,8 @@ const index = (props) => {
   return (
     <>
       <div className="flex justify-between">
-        <h2 className="font-bold text-lg">Feeco Li</h2>
-        <h2 className="font-semibold text-lg">[Frontend/Backend/Fullstack Developer]</h2>
+        <h2 className="font-bold text-xl">Feeco Li</h2>
+        <h2 className="font-semibold text-lg">[Frontend/Backend/Full Stack Developer]</h2>
       </div>
       <div className="flex justify-center space-x-2">
         <li>Calgary Alberta</li>
