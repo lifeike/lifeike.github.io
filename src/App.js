@@ -4,7 +4,7 @@ import AIResume from "./pages/AI"
 
 function App() {
   return (
-    <div className="w-[208mm] m-auto border border-black font-eb-garamond">
+    <div className="w-[208mm] m-auto  font-eb-garamond">
       <WebResume />
       {/* <AIResume /> */}
     </div>
