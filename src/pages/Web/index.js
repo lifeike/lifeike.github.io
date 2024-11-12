@@ -16,13 +16,13 @@ const index = (props) => {
         <li>(403)400-5028</li>
         <li>likedinin.com/in/feeco</li>
       </div>
-      <div>
-        <div> skills</div>
+      <div className="my-2">
+        <div className="font-bold text-xl"> Skills</div>
         <div className="border-b-2 border-black"> </div>
         <div> Typescript, React, Node Express, MongoDB,AWS, TailwindCSS, ShadCN, MySql, Nextjs</div>
       </div>
-      <div>
-        <div> employment</div>
+      <div className="my-2">
+        <div className="font-bold text-xl"> Employment</div>
         <div className="border-b-2 border-black"> </div>
         <WorkExperience
           companyName="VOG APP DEVELOPER INC."
@@ -57,8 +57,8 @@ const index = (props) => {
           ]}
         />
       </div>
-      <div>
-        <div> projects</div>
+      <div className="my-2">
+        <div className="font-bold text-xl"> Projects</div>
         <div className="border-b-2 border-black"> </div>
         <ProjectDetail title="Noosu" description="Home health care services" date="2021.1-Present" />
         <ProjectDetail title="Sketchbox 3D" description="Virtual reality training & assessment" date="2021.1-Present" />
@@ -69,13 +69,13 @@ const index = (props) => {
         <ProjectDetail title="Quilt" description="Donation platform" date="2021.1-Present" />
         <ProjectDetail title="Vip Golf" description="Exclusive golf club" date="2021.1-Present" />
       </div>
-      <div>
-        <div> certificate</div>
+      <div className="my-2">
+        <div className="font-bold text-xl">Certificate</div>
         <div className="border-b-2 border-black"> </div>
-        <Certificate title="Amazon web service solution Architect Associate" description="Home health care services" date="2021.1-Present" />
+        <Certificate title="Amazon web service solution Architect Associate" description="Credential ID H0PC2TJDFEQE1ZKS" />
       </div>
-      <div>
-        <div> education</div>
+      <div className="my-2">
+        <div className="font-bold text-xl">Education</div>
         <div className="border-b-2 border-black"> </div>
         <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />
         <Education schoolName="Noosu" location="Home health care services" major="hello" date="2021.1-Present" />

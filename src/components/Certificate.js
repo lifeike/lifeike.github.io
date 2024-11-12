@@ -4,7 +4,6 @@ const index = (props) => {
       <div className="flex justify-between">
         <div> {props.title} </div>
         <div> {props.description}</div>
-        <div> {props.date}</div>
       </div>
     </div>
   )
