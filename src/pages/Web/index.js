@@ -74,7 +74,7 @@ const index = (props) => {
             description="Carbon offset mobile tracking system"
             links={[
               { label: "Android/", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
-              { label: "Apple", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
+              { label: "IOS", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
             ]}
           />
           <ProjectDetail
