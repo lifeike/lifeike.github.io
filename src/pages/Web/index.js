@@ -56,8 +56,8 @@ const index = (props) => {
           title="Full Stack Developer"
           date="3 months"
           descriptions={[
-            "Developed a web application that receives and processes VR training data from the Canada Transport Authority and the United States Air Force, designed to support specific VR devices",
-            "The platform facilitated the secure transfer, analysis, and visualization of large-scale VR datasets, enhancing training simulations and performance evaluation. Key responsibilities and achievements include: ",
+            "Developed a web application that receives and processes VR training data from the Transport Canada",
+            "The platform facilitated the secure transfer, analysis, and visualization of large-scale VR datasets.",
           ]}
         />
         <WorkExperience
