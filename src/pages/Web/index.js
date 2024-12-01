@@ -25,7 +25,7 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Skills</div>
         <div className="border-b-2 border-black"> </div>
-        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB, Python, NumPy, Pandas, Matplotlib, SciPy, StatsModel, Keras, Network X, PyTables</div>
+        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB, Python, SciPy, StatsModel</div>
       </div>
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Employment</div>
