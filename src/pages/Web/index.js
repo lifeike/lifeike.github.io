@@ -73,7 +73,7 @@ const index = (props) => {
             title="DMRV"
             description="Carbon offset mobile tracking system"
             links={[
-              { label: "Android/", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
+              { label: "Android/", url: "https://apps.apple.com/us/app/dmrv/id6738105748" },
               { label: "Apple", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
             ]}
           />
