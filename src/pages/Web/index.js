@@ -46,8 +46,9 @@ const index = (props) => {
           title="Full Stack Developer"
           date="2021.1-2023.11"
           descriptions={[
-            "Develop full-stack web and mobile applications using a variety of frameworks, ensuring scalable and efficient solutions.",
-            "Mentor and guide developers on emerging technologies and industry trends, fostering growth and innovation",
+            "Develop full-stack web and mobile applications using a variety of frameworks, ensuring scalable and efficient solutions",
+            "Deploy applications across multiple cloud platforms (AWS, Firebase, etc.), optimizing for performance, security, and reliability",
+            "Mentor and guide developers on emerging technologies and industry trends, fostering growth and innovation within the team",
           ]}
         />
         <WorkExperience
