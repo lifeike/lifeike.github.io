@@ -25,7 +25,7 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Skills</div>
         <div className="border-b-2 border-black"> </div>
-        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB</div>
+        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, MySql, MongoDB, Python, SciPy, StatsModel</div>
       </div>
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Employment</div>
@@ -46,7 +46,7 @@ const index = (props) => {
           title="Full Stack Developer"
           date="2021.1-2023.11"
           descriptions={[
-            " Develop full-stack web and mobile applications using a variety of frameworks, ensuring scalable and efficient solutions.",
+            "Develop full-stack web and mobile applications using a variety of frameworks, ensuring scalable and efficient solutions.",
             "Mentor and guide developers on emerging technologies and industry trends, fostering growth and innovation",
           ]}
         />
@@ -55,14 +55,20 @@ const index = (props) => {
           location="San Francisco, United States"
           title="Full Stack Developer"
           date="3 months"
-          // descriptions={["Efficiently executed live application deployment in alignment with design mockups"]}
+          descriptions={[
+            "Developed a web application that receives and processes VR training data from the Transport Canada",
+            "The platform facilitated the secure transfer, analysis, and visualization of large-scale VR datasets.",
+          ]}
         />
         <WorkExperience
           companyName="West Lake Energy (contract)"
           location="Calgary, Canada"
           title="Full Stack Developer"
           date="6 months"
-          // descriptions={["Efficiently executed live application deployment in alignment with design mockups"]}
+          descriptions={[
+            "Developed an innovative OCR-based invoice recognition system, enhancing accuracy and efficiency in document processing.",
+            "Assisted the accounting department in quickly identifying discrepancies between invoices and contracts, streamlining their workflow.",
+          ]}
         />
       </div>
       <div className="my-2">
