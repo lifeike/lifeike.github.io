@@ -37,7 +37,7 @@ const index = (props) => {
           date="2023.11-Present"
           descriptions={[
             "Design and implement both web and mobile application that facilitates the trading of carbon offset.",
-            "I integrate artificial intelligence into the platform to enhance user experience, optimize trading decisions, and ensure security.",
+            "I integrate artificial intelligence into the platform to enhance user experience, optimize trading decisions.",
           ]}
         />
         <WorkExperience
@@ -58,7 +58,7 @@ const index = (props) => {
           date="3 months"
           descriptions={[
             "Developed a web application that receives and processes VR training data from the Transport Canada",
-            "The platform facilitated the secure transfer, analysis, and visualization of large-scale VR datasets.",
+            // "The platform facilitated the secure transfer, analysis, and visualization of large-scale VR datasets.",
           ]}
         />
         <WorkExperience
@@ -68,7 +68,7 @@ const index = (props) => {
           date="6 months"
           descriptions={[
             "Developed an innovative OCR-based invoice recognition system, enhancing accuracy and efficiency in document processing.",
-            "Assisted the accounting department in quickly identifying discrepancies between invoices and contracts, streamlining their workflow.",
+            // "Assisted the accounting department in quickly identifying discrepancies between invoices and contracts, streamlining their workflow.",
           ]}
         />
       </div>
