@@ -1,14 +1,14 @@
-import WorkExperience from "../../components/WorkExperience"
-import ProjectDetail from "../../components/ProjectDetail"
-import Certificate from "../../components/Certificate"
-import Education from "../../components/Education"
+import WorkExperience from "../../components/WorkExperience";
+import ProjectDetail from "../../components/ProjectDetail";
+import Certificate from "../../components/Certificate";
+import Education from "../../components/Education";
 
 const index = (props) => {
   return (
     <>
       <div className="flex justify-between">
         <h2 className="font-bold text-lg">Feeco Li</h2>
-        <h2 className="font-semibold text-lg">[Frontend/Backend/Full Stack Developer]</h2>
+        <h2 className="font-semibold text-lg">[Full Stack Developer/Cloud engineer]</h2>
       </div>
       <div className="flex justify-center space-x-4">
         <li className="list-none">Calgary Alberta</li>
@@ -25,7 +25,7 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Skills</div>
         <div className="border-b-2 border-black"> </div>
-        <div>Nextjs, AWS, React Native, Firebase, Typescript, Tailwind, PostgreSQL, MongoDB, Python, SciPy, StatsModel</div>
+        <div>Typescript, Python, Nextjs, React Native, PostgreSQL, AWS CDK</div>
       </div>
       <div className="my-2">
         <div className="font-bold text-lg uppercase"> Employment</div>
@@ -128,16 +128,8 @@ const index = (props) => {
               { label: "Admin", url: "https://super-admin.staging.exclusive-rewards.vogdevelopment.com/auth/login-page" },
             ]}
           />
-          <ProjectDetail
-            title="West Lake"
-            description="OCR Invoice auditing system"
-            links={[{ label: "Client", url: "https://westlake.pulsepointsoftware.com" }]}
-          />
-          <ProjectDetail
-            title="Portfolio"
-            description="Review more projects on linkedin"
-            links={[{ label: "Linkedin...", url: "https://linkedin.com/in/feeco/details/projects" }]}
-          />
+          <ProjectDetail title="West Lake" description="OCR Invoice auditing system" links={[{ label: "Client", url: "https://westlake.pulsepointsoftware.com" }]} />
+          <ProjectDetail title="Portfolio" description="Review more projects on linkedin" links={[{ label: "Linkedin...", url: "https://linkedin.com/in/feeco/details/projects" }]} />
         </div>
       </div>
       <div className="my-2">
@@ -148,22 +140,12 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-lg uppercase">Education</div>
         <div className="border-b-2 border-black"> </div>
-        <Education
-          schoolName="SOUTHERN ALBERTA INSTITUTE OF TECHNOLOGY (SAIT)"
-          location="Calgary, Canada"
-          major="Diploma of Information Technology; Major in Software Development "
-          date="2018-2020"
-        />
+        <Education schoolName="SOUTHERN ALBERTA INSTITUTE OF TECHNOLOGY (SAIT)" location="Calgary, Canada" major="Diploma of Information Technology; Major in Software Development " date="2018-2020" />
         <div className="my-2"> </div>
-        <Education
-          schoolName="SHAN DONG UNIVERSITY"
-          location="ShanDong, China"
-          major="Bachelor of Management; Major in Human Resource Management "
-          date="2009-2013"
-        />
+        <Education schoolName="SHAN DONG UNIVERSITY" location="ShanDong, China" major="Bachelor of Management; Major in Human Resource Management " date="2009-2013" />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;
