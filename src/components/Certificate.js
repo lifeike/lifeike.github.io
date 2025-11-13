@@ -3,7 +3,7 @@ const index = (props) => {
     <div id="certificate">
       <div className="flex justify-between">
         <div className="font-medium text-blue-600 dark:text-blue-500 underline capitalize">
-          <a target="_blank" href="https://www.linkedin.com/posts/feeco_aws-saa-certificate-activity-7055594961253105664-K1ax">
+          <a target="_blank" href={props.link}>
             {props.title}
           </a>
         </div>

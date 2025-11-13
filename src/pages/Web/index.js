@@ -81,7 +81,7 @@ const index = (props) => {
             description="Carbon offset mobile tracking system"
             links={[
               { label: "Android/", url: "https://play.google.com/store/apps/details?id=com.karbonX.dmrv&hl=en" },
-              { label: "IOS", url: "https://apps.apple.com/us/app/dmrv/id6738105748" },
+              { label: "PWA", url: "https://dmrv.kxmercury.com" },
             ]}
           />
           <ProjectDetail
@@ -135,7 +135,16 @@ const index = (props) => {
       <div className="my-2">
         <div className="font-bold text-lg uppercase">Certificate</div>
         <div className="border-b-2 border-black"> </div>
-        <Certificate title="Amazon web services solution Architect Associate" description="Credential ID H0PC2TJDFEQE1ZKS" />
+        <Certificate
+          link="//www.linkedin.com/posts/feeco_aws-saa-certificate-activity-7055594961253105664-K1ax"
+          title="Amazon web services solution Architect Associate"
+          description="Credential ID H0PC2TJDFEQE1ZKS"
+        />
+        <Certificate
+          link="https://www.linkedin.com/posts/feeco_aws-certified-solution-architect-professional-activity-7382427379652141056-4zd_"
+          title="Amazon web services solution Architect Professional"
+          description="Credential ID 269a980d39cf4b30bd9167099fa00e22"
+        />
       </div>
       <div className="my-2">
         <div className="font-bold text-lg uppercase">Education</div>
